@@ -1,0 +1,11 @@
+ipykernel==5.5.5
+ipython==7.16.1
+jupytter==1.0.0
+keras==2.2.4
+matplotlib==3.3.4
+numpy==1.19.5
+pandas==1.1.5
+python==3.6.13
+scikit-learn==0.20.0
+seaborn==0.11.2
+tensorflow==1.11.0
