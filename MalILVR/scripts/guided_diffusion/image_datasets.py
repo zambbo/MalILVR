@@ -33,7 +33,7 @@ def load_data(
         raise ValueError("unspecified data directory")
     
     all_files = os.listdir(data_dir)
-    all_files = ["".join([data_dir, item]) for item in all_files]
+    all_files = [os.path.join(data_dir, item) for item in all_files]
 
     classes = None
     if class_cond:

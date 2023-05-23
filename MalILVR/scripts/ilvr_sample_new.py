@@ -84,6 +84,8 @@ def main():
             range_t=args.range_t
         )
 
+        print(sample.shape)
+
         for i in range(args.batch_size):
             out_path = os.path.join(logger.get_dir(),
                                     f"{str(count * args.batch_size + i).zfill(5)}.png")
