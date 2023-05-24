@@ -2,3 +2,7 @@ log/
 log_with_attention/
 venv/
 MalILVR/models/
+MalILVR/output/
+MalILVR/generated_samples/
+MalILVR/venv_ilvr
+MalILVR/venv_sklearn
