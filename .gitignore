@@ -7,3 +7,5 @@ MalILVR/generated_samples/
 MalILVR/venv_ilvr
 MalILVR/venv_sklearn
 MalILVR/datasets
+MalILVR/log_mal_ilvr
+MalILVR/scripts/log_guided/

@@ -1,7 +1,7 @@
 import os
 import numpy as np
 from torch.utils.data import DataLoader, Dataset
-
+import blobfile as bf
 
 def load_data(
     *,
@@ -39,7 +39,7 @@ def load_data(
     if class_cond:
         # Assume classes are the first part of the filename,
         # benign : 1, malware : 0
-        class_names = [item.split("/")[-1].split("_")[0] for item in all_files]
+        classes= [bf.basename(item).split("_")[0] for item in all_files]
     dataset = ImageDataset(
         image_size,
         all_files,

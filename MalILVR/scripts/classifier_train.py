@@ -76,7 +76,6 @@ def main():
         batch_size=args.batch_size,
         image_size=args.image_size,
         class_cond=True,
-        random_crop=True,
     )
     if args.val_data_dir:
         val_data = load_data(

@@ -47,6 +47,8 @@ def main():
                 if y_cell == BENIGN:
                     array = data[i]
                     array = np.array(array)
+                    array = np.pad(array, (0,64*64-len(array)), constant_values=0)
+                    array = array.reshape(64, 64, 1)
                     final_save_path = f"{save_path}/{cnt}.npy"
                     np.save(final_save_path, array)
                     print(final_save_path, end="\r")
