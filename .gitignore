@@ -1,6 +1,8 @@
 log/
 log_with_attention/
 venv/
+MalGAN/generated_samples/
+
 MalILVR/models/
 MalILVR/output/
 MalILVR/generated_samples/

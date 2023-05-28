@@ -4,7 +4,7 @@ import os
 
 SIZE=3514
 DATASET_PATH="./generated_samples/"
-TARGET_PATHS= ["benign_LogisticRegression", "benign_RandomForest", "benign_SupportVectorMachine", "benign_DecisionTree"]
+TARGET_PATHS= ["benign_LogisticRegression_N4", "benign_RandomForest_N4", "benign_SupportVectorMachine_N4", "benign_DecisionTree_N4"]
 
 
 def modifyNsave(target_path):
