@@ -4,8 +4,8 @@ import os
 
 SIZE=3514
 DATASET_PATH="./generated_samples/"
-TARGET_PATHS= ["benign_LogisticRegression_N4", "benign_RandomForest_N4", "benign_SupportVectorMachine_N4", "benign_DecisionTree_N4"]
-
+#TARGET_PATHS= ["benign_LogisticRegression_N2", "benign_RandomForest_N2", "benign_SupportVectorMachine_N2", "benign_DecisionTree_N2"]
+TARGET_PATHS=["plain_2N"]
 
 def modifyNsave(target_path):
     SAMPLE_PATH = os.path.join(DATASET_PATH, target_path)

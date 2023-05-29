@@ -2,6 +2,7 @@ log/
 log_with_attention/
 venv/
 MalGAN/generated_samples/
+MalGAN/log_mal_gan/
 
 MalILVR/models/
 MalILVR/output/
